@@ -21,3 +21,4 @@ Pomodoro 1:
 - ✅ UAT1.1: User can pass no function, it should throw an exception
 - ✅ UAT1.2: User can pass wrong function name (number), it should throw an exception
 - ✅ UAT2.1: User can pass "function(){return true}" , it should return true 
+- 🚧 TODO UAT2.2: User can pass "'function(x,y){return x+y}', [1,2]" , it should return 3
