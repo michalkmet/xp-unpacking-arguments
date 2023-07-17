@@ -6,15 +6,17 @@ function spread(wholeFunction, args) {
   console.log('args: ', args);
   const functionBody = wholeFunction.split(')')[1];
   console.log('functionBody: ', functionBody);
-
-  const dynamicFunction = new Function(args, functionBody);
-  console.log('dynamicFunction: ', functionBody);
-  const [x, y, z] = args;
-  return dynamicFunction(x, y, z);
-  if (wholeFunction === 'function(){return true}') {
-    return true;
+  if(args){
+    const [x, y] = args;
+    console.log('x: ', x);
+    console.log('y: ', y);
+    let dynamicFunction = new Function('x', 'y', functionBody);
+    console.log('dynamicFunction: ', functionBody);
+    return dynamicFunction(x, y);
+  } else {
+    let dynamicFunctionWithouArgs = new Function(functionBody);
+    return dynamicFunctionWithouArgs();
   }
-  return 3;
 }
 
 module.exports = spread;

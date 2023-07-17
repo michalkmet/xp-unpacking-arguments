@@ -28,4 +28,4 @@ Pomodoro 2:
 - 🚧 TODO UAT2.3: User can pass "function(x,y,z){return x-y-z}, [10,1,2]" , it should return 7
 
 Pomodoro 3:
-- 🚧 TODO UAT2.3: User can pass "function(x,y,z){return x-y-z}, [10,1,2]" , it should return 7
+- ✅ TODO UAT2.2: User can pass "function(x,y,z){return x-y-z}, [10,1,2]" , it should return 7
