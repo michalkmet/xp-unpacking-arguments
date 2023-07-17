@@ -2,6 +2,7 @@ function spread(wholeFunction, args) {
   if (!wholeFunction || typeof wholeFunction != 'string') {
     throw new Error('missing Function!');
   }
+  wholeFunction = wholeFunction.toString();
   const functionBody = wholeFunction.split(')')[1];
   if (args) {
     const x = args[0] ? args[0] : 0;
