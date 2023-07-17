@@ -8,8 +8,9 @@ function spread(wholeFunction, args) {
     const x = args[0] ? args[0] : 0;
     const y = args[1] ? args[1] : 0;
     const z = args[2] ? args[2] : 0;
-    let dynamicFunction = new Function('x', 'y', 'z', functionBody);
-    return dynamicFunction(x, y, z);
+    const w = args[3] ? args[3] : 0;
+    let dynamicFunction = new Function('x', 'y', 'z','w', functionBody);
+    return dynamicFunction(x, y, z, w);
   } else {
     let dynamicFunctionWithouArgs = new Function(functionBody);
     return dynamicFunctionWithouArgs();
