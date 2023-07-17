@@ -6,13 +6,14 @@ function spread(wholeFunction, args) {
   console.log('args: ', args);
   const functionBody = wholeFunction.split(')')[1];
   console.log('functionBody: ', functionBody);
-  if(args){
+  if (args) {
     const [x, y] = args;
     console.log('x: ', x);
     console.log('y: ', y);
-    let dynamicFunction = new Function('x', 'y', functionBody);
+    const z = args[2] ? args[2] : 0;
+    let dynamicFunction = new Function('x', 'y', 'z', functionBody);
     console.log('dynamicFunction: ', functionBody);
-    return dynamicFunction(x, y);
+    return dynamicFunction(x, y, z);
   } else {
     let dynamicFunctionWithouArgs = new Function(functionBody);
     return dynamicFunctionWithouArgs();
