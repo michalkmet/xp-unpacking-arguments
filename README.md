@@ -24,4 +24,4 @@ Story 2: User can pass in function name and arguments, it should return result o
 - ✅ TODO UAT2.2: User can pass "function(x,y){return x+y}, [1,2]" , it should return 3
 - ✅ TODO UAT2.3: User can pass "function(x,y,z){return x-y-z}, [10,1,2]" , it should return 7
 - ✅ TODO UAT2.4: User can pass "function(x){return x}, 'hello world'" , it should return 'hello world'
-- ⚠ TODO UAT2.5: User can pass "function(x,y,z,w){return x+y+z+w}",[1,2,3,4] , it should return 10
+- ✅ TODO UAT2.5: User can pass "function(x,y,z,w){return x+y+z+w}",[1,2,3,4] , it should return 10

@@ -38,4 +38,4 @@ Pomodoro 4:
 - ✅ UAT2.5: User can pass "function(x,y,z,w){return x+y+z+w}",[1,2,3,4] , it should return 10
 
 Pomodoro 5:
-- Refactor - apply function ()
+- ✅ Refactor - apply function ()
