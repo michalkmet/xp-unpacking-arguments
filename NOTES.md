@@ -18,4 +18,5 @@ someFunction(1, true, "Foo", "bar")
 Pomodoro 1:
 - ✅ Initial refactor, function names, file names
 - ✅ User Stories 
-- ✅  TODO UAT1.1: User can pass no function, it should throw an exception
+- ✅ UAT1.1: User can pass no function, it should throw an exception
+- ✅ TODO UAT1.2: User can pass wrong function name (number), it should throw an exception
