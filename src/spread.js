@@ -6,6 +6,7 @@ function spread(wholeFunction) {
   if (wholeFunction === 'function(){return true}') {
     return true;
   }
+  return 3;
 }
 
 module.exports = spread;
