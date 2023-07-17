@@ -1,7 +1,7 @@
-const hello = require('./hello');
+const spread = require('./spread');
 
 describe('hello', () => {
   it('should return hello', () => {
-    expect(hello()).toBe('hello');
+    expect(spread()).toBe('hello');
   });
 });
