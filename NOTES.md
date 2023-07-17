@@ -35,3 +35,4 @@ Pomodoro 3:
 Pomodoro 4:
 - ✅ Refactor
 - ✅ added to string method
+- 🚧 TODO UAT2.5: User can pass "function(x,y,z,w){return x+y+z+w}",[1,2,3,4] , it should return 10
