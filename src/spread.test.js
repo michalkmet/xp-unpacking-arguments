@@ -8,3 +8,9 @@ describe('Story 1', () => {
     expect(() => spread(6)).toThrow();
   });
 });
+
+describe('Story 2', () => {
+  it('UAT2.1: User can pass "function(x,y){return x+y}, [1,2]" , it should return 3', () => {
+    expect(spread('function(x,y){return x+y}',[1,2])).toBe(3);
+  });
+});
