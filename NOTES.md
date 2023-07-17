@@ -24,4 +24,8 @@ Pomodoro 1:
 - 🚧 TODO UAT2.2: User can pass "'function(x,y){return x+y}', [1,2]" , it should return 3
 
 Pomodoro 2:
-- ✅ TODO UAT2.2: User can pass "'function(x,y){return x+y}', [1,2]" , it should return 3
+- ✅ UAT2.2: User can pass "'function(x,y){return x+y}', [1,2]" , it should return 3
+- 🚧 TODO UAT2.3: User can pass "function(x,y,z){return x-y-z}, [10,1,2]" , it should return 7
+
+Pomodoro 3:
+- 🚧 TODO UAT2.3: User can pass "function(x,y,z){return x-y-z}, [10,1,2]" , it should return 7

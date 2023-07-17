@@ -13,7 +13,10 @@ describe('Story 2', () => {
   it('UAT2.1: User can pass "function(){return true}" , it should return true', () => {
     expect(spread('function(){return true}')).toBe(true);
   });
-  it('UAT2.2: User can pass "function(x,y){return x+y}, [1,2]" , it should return 3', () => {
+  it('UAT2.2: User can pass "function(x,y){return x+y}," [1,2] , it should return 3', () => {
     expect(spread('function(x,y){return x+y}', [1, 2])).toBe(3);
+  });
+  it('UAT2.3: User can pass "function(x,y,z){return x-y-z}," [10,1,2], it should return 7', () => {
+    expect(spread('function(x,y,z){return x-y-z}', [10, 1, 2])).toBe(7);
   });
 });
