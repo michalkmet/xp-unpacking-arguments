@@ -30,3 +30,4 @@ Pomodoro 2:
 Pomodoro 3:
 - ✅ UAT2.2: User can pass "'function(x,y){return x+y}', [1,2]" , it should return 3
 - ✅ UAT2.3: User can pass "function(x,y,z){return x-y-z}, [10,1,2]" , it should return 7
+- ✅  TODO UAT2.4: User can pass "function(x){return x}, 'hello world'" , it should return 'hello world'

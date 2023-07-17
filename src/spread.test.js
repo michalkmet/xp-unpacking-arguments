@@ -19,4 +19,7 @@ describe('Story 2', () => {
   it('UAT2.3: User can pass "function(x,y,z){return x-y-z}," [10,1,2], it should return 7', () => {
     expect(spread('function(x,y,z){return x-y-z}', [10, 1, 2])).toBe(7);
   });
+  it('UAT2.4: User can pass "function(x){return x},["hello world"] , it should return "hello world"', () => {
+    expect(spread('function(x){return x}', ['hello world'])).toBe('hello world');
+  });
 });
