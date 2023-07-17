@@ -1,5 +1,5 @@
 function spread() {
-  return 'hello';
+  throw new Error('missing Function!');
 }
 
 module.exports = spread;

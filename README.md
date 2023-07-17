@@ -16,7 +16,7 @@ someFunction(1, true, "Foo", "bar")
 ## Backlog
 
 Story 1: User can pass in wrong inputs, it should throw an exception
-- ⚠ TODO UAT1.1: User can pass no function name, it should throw an exception
+- ⚠ TODO UAT1.1: User can pass no function, it should throw an exception
 - ⚠ TODO UAT1.2: User can pass wrong function name (number), it should throw an exception
 
 Story 2: User can pass in function name and arguments, it should return result of that function with the given arguments

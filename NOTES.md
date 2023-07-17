@@ -16,6 +16,6 @@ someFunction(1, true, "Foo", "bar")
 ## Plans
 
 Pomodoro 1:
-- ✅ TODO Initial refactor, function names, file names
-- ✅ TODO User Stories 
-- 🚧  TODO UAT1.1: User can pass no function name, it should throw an exception
+- ✅ Initial refactor, function names, file names
+- ✅ User Stories 
+- ✅  TODO UAT1.1: User can pass no function, it should throw an exception
