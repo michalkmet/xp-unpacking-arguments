@@ -10,7 +10,7 @@ describe('Story 1', () => {
 });
 
 describe('Story 2', () => {
-  it('UAT2.1: User can pass "function(x,y){return x+y}, [1,2]" , it should return 3', () => {
-    expect(spread('function(x,y){return x+y}',[1,2])).toBe(3);
+  it('UAT2.1: User can pass "function(){return true}" , it should return true', () => {
+    expect(spread('function(){return true}')).toBe(true);
   });
 });

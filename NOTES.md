@@ -20,4 +20,4 @@ Pomodoro 1:
 - ✅ User Stories 
 - ✅ UAT1.1: User can pass no function, it should throw an exception
 - ✅ UAT1.2: User can pass wrong function name (number), it should throw an exception
-- ⚠ TODO UAT2.1: User can pass "function(){return true}" , it should return true 
+- ✅ UAT2.1: User can pass "function(){return true}" , it should return true 
